@@ -1,0 +1,26 @@
+[
+  {
+    "title": "CI/CD Automation",
+    "description": "I implement efficient CI/CD pipelines using Jenkins, GitHub Actions, and GitLab CI. Automate testing, building, and deployment workflows to ensure rapid, reliable delivery of applications."
+  },
+  {
+    "title": "Scalable Microservices Infrastructure ",
+    "description": "CI/CD, Docker, and Kubernetes-based microservices deployment with scalability and automation."
+  },
+  {
+    "title": "Deployment with Docker & Kubernetes",
+    "description": "I containerize applications with Docker and deploy them using Kubernetes. Manage orchestration, auto-scaling, and high availability across distributed systems."
+  },
+  {
+    "title": "Cloud Infrastructure ",
+    "description": "I architect and manage cloud infrastructure using AWS services such as EC2, S3, IAM, and VPC. Focus on scalability, security, and automation."
+  },
+  {
+    "title": "Infrastructure as Code ",
+    "description": "I provision and manage infrastructure using Terraform and Ansible. Enable consistent, repeatable deployments across environments."
+  },
+  {
+    "title": "Monitoring & Alerting",
+    "description": "I monitor systems with Prometheus and Grafana. Configure real-time alerts and visualize application performance to ensure uptime and reliability."
+  }
+]

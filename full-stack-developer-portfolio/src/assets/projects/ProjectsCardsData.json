@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Quiz Platform",
+    "description": "Built a full-stack quiz platform with JWT authentication, category-based quizzes, scoring, real-time analytics, and scalable REST APIs using MongoDB.",
+    "img": "/quiz.png",
+    "focusedOn": "Full Stack | Authentication | Leaderboard | Analytics",
+    "githubLink": "",
+    "liveLink": ""
+  },
+
+  {
+    "title": "Gadget Fixing Platform",
+    "description": "Built a scalable repair management system with real-time tracking, optimized RESTful APIs using MongoDB indexing, and enhanced UI functionality with React.",
+    "img": "/InternshipProjetcs.webp",
+    "focusedOn": "Backend | REST APIs | Database Optimization",
+    "githubLink": "",
+    "liveLink": ""
+  },
+
+  {
+    "title": "Hotel Booking Website",
+    "description": "A complete hotel booking solution with user authentication, room catalog, booking management, and payment integration. Built with MERN stack for seamless performance.",
+    "img": "/ImageGallery.webp",
+    "focusedOn": "Frontend | Backend | REST APIs | Payment Integration",
+    "githubLink": "",
+    "liveLink": ""
+  },
+  {
+    "title": "Style Living Interior Platform",
+    "description": "Built an interior design platform with automated form processing using Google Sheets API and backend services powered by Node.js.",
+    "img": "/Interior.png",
+    "focusedOn": "Backend | Automation | API Integration",
+    "githubLink": "",
+    "liveLink": ""
+  }
+]
