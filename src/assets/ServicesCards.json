@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Full-Stack MERN Development",
+    "description": "I build fast, scalable, and responsive web applications using MongoDB, Express.js, React, and Node.js. From frontend to backend, I deliver end-to-end solutions tailored to your needs."
+  },
+  {
+    "title": "Microservices Design & Implementation",
+    "description": "I create modular, scalable backend systems using microservices. Break down complex apps into efficient, independent services for better performance and flexibility."
+  },
+  {
+    "title": "Deployment with CI/CD and Containerization",
+    "description": "I streamline development with deployment pipelines using tools like GitHub Actions. And Made Images and Containers in Docker."
+  },
+  {
+    "title": "Dynamic React Frontends",
+    "description": "I craft interactive and user-friendly interfaces with React. From single-page apps to complex dashboards, I ensure smooth and fast user experiences."
+  },
+  {
+    "title": "Robust RESTful APIs",
+    "description": "I design and develop secure, scalable REST APIs with Node.js and Express. Connect your frontend seamlessly to powerful backend logic."
+  },
+  {
+    "title": "Efficient Database Solutions",
+    "description": "I architect and optimize MongoDB databases for speed and scalability. Whether it’s data modeling or query optimization, I ensure your app runs smoothly."
+  }
+]
