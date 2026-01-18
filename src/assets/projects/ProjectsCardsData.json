@@ -1,0 +1,36 @@
+[
+  {
+    "title": "StudQuiz – Online Topic based Quiz Platform",
+    "description": "Developed a JavaScript-based quiz application integrating the OpenTDB API, featuring dynamic question generation and optimized performance across devices.",
+    "img": "/quiz.jpg",
+    "focusedOn": "JavaScript | API Integration | Dynamic UI | Performance Optimization",
+    "githubLink": "",
+    "liveLink": "https://studquiz-two.vercel.app/"
+  },
+
+  {
+    "title": "Gadget Fixing Platform",
+    "description": "Built a scalable repair management system with real-time tracking, optimized RESTful APIs using MongoDB indexing, and enhanced UI functionality with React.",
+    "img": "/InternshipProjetcs.webp",
+    "focusedOn": "Backend | RESTful APIs | Database Optimization",
+    "githubLink": "",
+    "liveLink": ""
+  },
+
+  {
+    "title": "Hotel Booking Website",
+    "description": "A complete hotel booking solution with user authentication, room catalog, booking management, and payment integration. Built with MERN stack for seamless performance.",
+    "img": "/ImageGallery.webp",
+    "focusedOn": "Frontend | Backend | RESTful APIs | Payment Integration",
+    "githubLink": "",
+    "liveLink": ""
+  },
+  {
+    "title": " Fitetse Appointment Platform",
+    "description": "Designed and developed a fully responsive MERN-stack fitness class platform with secure RESTful APIs and optimized React rendering for high performance and an enhanced user experience.",
+    "img": "/Doctor.jpg",
+    "focusedOn": "Secure RESTful APIs | Responsive UI | Performance Optimization",
+    "githubLink": "",
+    "liveLink": "https://fitetse-beta.netlify.app/"
+  }
+]

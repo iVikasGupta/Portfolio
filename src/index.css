@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+:root {
+  background-color: #c5fff8;
+}
+
+/* animations */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-3%);
+    animation-timing-function: cubic-bezier(0.8, 0, 5, 8);
+  }
+  50% {
+    transform: translatex(0%);
+    animation-timing-function: cubic-bezier(0, 0, 3, 0);
+  }
+}
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+/* imported component css */
+.purple_border {
+  box-shadow: 4px 4px 1px rgb(126, 34, 206);
+}
+
+.black_border {
+  box-shadow: 4px 4px 1px rgb(0, 0, 0);
+}
+
+/* hero div1 */
+.bg-img {
+  background: red;
+  /* background-image: url(''); */
+  background-size: 100%;
+  background-position-y: 96%;
+}
+
+@keyframes slide-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.1s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
