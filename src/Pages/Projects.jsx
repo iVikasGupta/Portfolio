@@ -25,27 +25,22 @@ const Projects = () => {
               {projects.map((project, index) => (
                 <div
                   key={index}
-                  className="bg-white border-4 border-blue-400 mt-[2vh] sm:mt-[6vh] shadow-lg"
-                  style={{
-                    backgroundImage: `url("https://res.cloudinary.com/dqt8po5ie/image/upload/v1742359544/InteriorDesignWeb/bg1_w43a5m.jpg")`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
+                  className="bg-white border-2 border-blue-300 mt-[2vh] sm:mt-[6vh] shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
                 >
                   <img src={project.img} alt={project.title} className="w-full h-60 object-cover" />
-                  <div className="p-6 rounded-lg">
-                    <h2 className="text-xl text-blue-800 font-semibold mb-2">{project.title}</h2>
-                    <p className="text-gray-600 mb-4 h-32">{project.description}</p>
-                    <p className="text-sm text-blue-500 mb-4 h-14">
-                      <span className="text-blue-800">Focused on :</span> {project.focusedOn}
+                  <div className="p-5 bg-white bg-opacity-95">
+                    <h2 className="text-lg text-blue-800 font-bold mb-2">{project.title}</h2>
+                    <p className="text-gray-700 mb-2 text-xs leading-snug text-justify line-clamp-3">{project.description}</p>
+                    <p className="text-xs text-gray-600 mb-2 leading-snug">
+                      <span className="text-blue-800 font-semibold">Focused on:</span> {project.focusedOn}
                     </p>
-                    <div className="flex items-center justify-center bottom-3 gap-2">
+                    <div className="flex items-center justify-center gap-3">
                       {project.githubLink && (
                         <Link
                           to={project.githubLink}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
+                          className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-5 rounded-lg text-sm font-medium transition-colors duration-200"
                         >
                           Details
                         </Link>
@@ -55,7 +50,7 @@ const Projects = () => {
                           to={project.liveLink}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded"
+                          className="bg-green-600 hover:bg-green-700 text-white py-2 px-5 rounded-lg text-sm font-medium transition-colors duration-200"
                         >
                           Live Demo
                         </Link>

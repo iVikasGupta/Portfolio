@@ -9,20 +9,20 @@
   },
 
   {
-    "title": "Gadget Fixing Platform",
-    "description": "Built a scalable repair management system with real-time tracking, optimized RESTful APIs using MongoDB indexing, and enhanced UI functionality with React.",
-    "img": "/InternshipProjetcs.webp",
-    "focusedOn": "Backend | REST APIs | Database Optimization",
+    "title": " Fitetse Appointment Platform",
+    "description": "Designed and developed a fully responsive MERN-stack fitness class platform with secure RESTful APIs and optimized React rendering for high performance and an enhanced user experience.",
+    "img": "/Doctor.jpg",
+    "focusedOn": "Secure RESTful APIs | Responsive UI | Performance Optimization",
     "githubLink": "",
-    "liveLink": ""
+    "liveLink": "https://fitetse-beta.netlify.app/"
   },
 
   {
-    "title": "Hotel Booking Website",
-    "description": "A complete hotel booking solution with user authentication, room catalog, booking management, and payment integration. Built with MERN stack for seamless performance.",
-    "img": "/ImageGallery.webp",
-    "focusedOn": "Frontend | Backend | REST APIs | Payment Integration",
+    "title": "IndiaBizzness – Business Listing & Lead Generation Platform",
+    "description": "Built a business listing platform with responsive UI, SQL database integration, and REST APIs, optimizing performance and user experience for effective business discovery and lead generation.",
+    "img": "/india.png",
+    "focusedOn": "JavaScript | SQL | REST APIs | Responsive Design | Database Design ",
     "githubLink": "",
-    "liveLink": ""
+    "liveLink": "https://indiabizzness.com/"
   }
 ]
