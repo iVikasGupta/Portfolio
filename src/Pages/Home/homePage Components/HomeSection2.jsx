@@ -121,6 +121,25 @@ const HomeSection2 = () => {
                   </p>
 
                   <h2 className="text-xl text-center text-blue-900 font-bold mt-6 mb-4">Experience</h2>
+                   <div className="mb-6">
+                      <div className="flex justify-between flex-wrap gap-2 w-full">
+                        <span className="text-blue-600 font-bold">Backend Developer</span>
+                        <p>
+                          <span className="text-gray-800 text-xs mr-2">Vardhman International</span>
+                          <span className="text-gray-700 text-xs  mr-2">
+                            (Onsite)
+                            <br className="sm:hidden block" />
+                          </span>
+                          <span className="text-black font-bold">Sep 2025 - Present</span>
+                        </p>
+                      </div><p className="mt-2 text-sm text-gray-500" style={{ fontFamily: `Caveat, cursive` }}>
+                        Architected and maintained backend systems for 2 live production platforms, ensuring scalability, reliability,
+                        and optimal performance across critical business workflows.Improved API response times by 40% through query optimization, caching strategies, and efficient data processing pipelines.Developed and optimized the backend architecture for business directory platform, implementing secure REST APIs, business management workflows, search functionality, and Cloudflare-powered performance
+                        enhancements.Applied MVC architecture and backend best practices across projects, reducing code duplication by 30% and
+                        improving maintainability.
+
+                      </p>
+                    </div>
                   <div className="mb-6">
                     <div className="flex justify-between flex-wrap gap-2 w-full">
                       <span className="text-blue-600 font-bold">Full Stack Developer</span>
@@ -140,7 +159,7 @@ const HomeSection2 = () => {
                       pipelines.
                     </p>
                   </div>
-                  <div className="mb-6">
+                  {/* <div className="mb-6">
                     <div className="flex justify-between flex-wrap gap-2 w-full">
                       <span className="text-blue-600 font-bold">ByteCode It Solution</span>
                       <p>
@@ -154,9 +173,9 @@ const HomeSection2 = () => {
                       code using classes, interfaces, collections, and exception handling Exposure to Java Servlets, JSP, and MVC architecture Familiar with
                       Spring Boot basics for building REST APIs (if applicable) Worked with MySQL and PostgreSQL
                     </p>
-                  </div>
+                  </div> */}
 
-                  <div className="mb-6">
+                  {/* <div className="mb-6">
                     <div className="flex justify-between flex-wrap gap-2 w-full">
                       <span className="text-blue-600 font-bold">Web Development Trainee</span>
                       <p>
@@ -169,7 +188,7 @@ const HomeSection2 = () => {
                       Developed Websites using HTML5, CSS, JavaScript, Bootstrap Framework and Bootstrap Website Templates. Learned about Responsiveness of
                       Website across all Devices. Learned about Domain registration, Domain Hosting Service, C Panel, Word Press
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

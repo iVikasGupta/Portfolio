@@ -128,6 +128,25 @@ const About = () => {
                     <h2 className="text-xl text-center text-blue-900 font-bold mt-6 mb-4">Experience</h2>
                     <div className="mb-6">
                       <div className="flex justify-between flex-wrap gap-2 w-full">
+                        <span className="text-blue-600 font-bold">Backend Developer</span>
+                        <p>
+                          <span className="text-gray-800 text-xs mr-2">Vardhman International</span>
+                          <span className="text-gray-700 text-xs  mr-2">
+                            (Onsite)
+                            <br className="sm:hidden block" />
+                          </span>
+                          <span className="text-black font-bold">Sep 2025 - Present</span>
+                        </p>
+                      </div><p className="mt-2 text-sm text-gray-500" style={{ fontFamily: `Winky Sans, sans-serif` }}>
+                        Architected and maintained backend systems for 2 live production platforms, ensuring scalability, reliability,
+                        and optimal performance across critical business workflows.Improved API response times by 40% through query optimization, caching strategies, and efficient data processing pipelines.Developed and optimized the backend architecture for business directory platform, implementing secure REST APIs, business management workflows, search functionality, and Cloudflare-powered performance
+                        enhancements.Applied MVC architecture and backend best practices across projects, reducing code duplication by 30% and
+                        improving maintainability.
+
+                      </p>
+                    </div>
+                    <div className="mb-6">
+                      <div className="flex justify-between flex-wrap gap-2 w-full">
                         <span className="text-blue-600 font-bold">Full Stack Developer</span>
                         <p>
                           <span className="text-gray-800 text-xs mr-2">Ezpedal</span>
@@ -135,7 +154,7 @@ const About = () => {
                             (Onsite)
                             <br className="sm:hidden block" />
                           </span>
-                          <span className="text-black font-bold">Feb 2025 - Sep 2025</span>
+                          <span className="text-black font-bold">Feb 2025 - Aug 2025</span>
                         </p>
                       </div>
                       <p className="mt-2 text-sm text-gray-500" style={{ fontFamily: `Winky Sans, sans-serif` }}>
