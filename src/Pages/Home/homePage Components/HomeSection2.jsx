@@ -146,7 +146,7 @@ const HomeSection2 = () => {
                       <p>
                         <span className="text-gray-800 text-xs mr-2">Ezpedal</span>
                         <span className="text-gray-700 text-xs  mr-2">(Onsite)</span>
-                        <span className="text-black font-bold">Feb 2025 - Sep 2025</span>
+                        <span className="text-black font-bold">Feb 2025 - Aug 2025</span>
                       </p>
                     </div>
                     <p className="mt-2 text-sm text-gray-500" style={{ fontFamily: "Caveat, cursive" }}>
